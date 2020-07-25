@@ -28,7 +28,7 @@
       </v-container>
     </v-main>
     <back-to-top bottom="50px" right="50px">
-      <v-btn color="primary" fab small dark>
+      <v-btn color="primary" fab big dark>
       <v-icon>mdi-arrow-up-bold</v-icon>
       </v-btn>
     </back-to-top>
