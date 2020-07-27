@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-card max-width="900" class="mx-auto" flat>
+    <v-card class="mx-auto" flat>
       <v-container>
         <v-row justify="space-between">
           <v-col cols="auto">
@@ -32,19 +32,17 @@
             </v-card-actions>
           </v-col>
         </v-row>
-      </v-container>
-    </v-card>
-    <v-card class="mx-auto" flat>
-      <v-container>
         <v-row justify="space-between">
           <v-col cols="auto">
             <v-img
-              height="350"
-              width="350"
-              src=""
+              height="auto"
+              width="600"
+              src="https://user-images.githubusercontent.com/52627952/88538850-0f894380-d04b-11ea-949a-a1a908828378.jpg"
             ></v-img>
+            출처 - 환경부 환경통계 포털
           </v-col>
           <v-col>
+            <br>
             <v-card-title>어울림이란</v-card-title>
 
             <v-card-subtitle class="pb-0">Number 10</v-card-subtitle>
