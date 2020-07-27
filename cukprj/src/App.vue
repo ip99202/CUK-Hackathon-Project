@@ -20,25 +20,27 @@
       <v-lazy
         v-model="isActive"
         :options="{
-          threshold: .5
+          threshold: 0.5,
         }"
         min-height="200"
         transition="fade-transition"
       >
-      <v-container class="fill-height" fluid>
-        <v-row align="center" justify="center"> </v-row>
-        <v-tabs-items v-model="tab">
-          <v-tab-item></v-tab-item>
-          <v-tab-item><product-page></product-page></v-tab-item>
-          <v-tab-item><process-page></process-page></v-tab-item>
-          <v-tab-item><market-analysis-page></market-analysis-page></v-tab-item>
-        </v-tabs-items>
-      </v-container>
+        <v-container fluid>
+          <v-row align="center" justify="center"> </v-row>
+          <v-tabs-items v-model="tab">
+            <v-tab-item></v-tab-item>
+            <v-tab-item><product-page></product-page></v-tab-item>
+            <v-tab-item><process-page></process-page></v-tab-item>
+            <v-tab-item
+              ><market-analysis-page></market-analysis-page
+            ></v-tab-item>
+          </v-tabs-items>
+        </v-container>
       </v-lazy>
     </v-main>
     <back-to-top bottom="50px" right="50px">
       <v-btn color="primary" fab big dark>
-      <v-icon>mdi-arrow-up-bold</v-icon>
+        <v-icon>mdi-arrow-up-bold</v-icon>
       </v-btn>
     </back-to-top>
   </v-app>
