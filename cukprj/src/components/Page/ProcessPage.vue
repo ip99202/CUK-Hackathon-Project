@@ -34,7 +34,7 @@
       </v-container>
     </v-card>
 
-    <v-card class="mx-auto" flat>
+    <v-card max-width="900" class="mx-auto" flat>
       <v-container>
         <v-row justify="right">
           <v-col>
@@ -68,7 +68,7 @@
       </v-container>
     </v-card>
 
-    <v-card class="mx-auto" flat>
+    <v-card max-width="900" class="mx-auto" flat>
       <v-container>
         <v-row justify="right">
           <v-col>
@@ -102,7 +102,7 @@
       </v-container>
     </v-card>
 
-    <v-card class="mx-auto" flat>
+    <v-card max-width="900" class="mx-auto" flat>
       <v-container>
         <v-row justify="right">
           <v-col>
