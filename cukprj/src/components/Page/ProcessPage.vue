@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-card class="mx-auto" flat>
+    <v-card max-width="900" class="mx-auto" flat>
       <v-container>
         <v-row justify="">
           <v-col cols="auto">
