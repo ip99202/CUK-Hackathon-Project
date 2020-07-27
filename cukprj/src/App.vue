@@ -43,6 +43,10 @@
         <v-icon>mdi-arrow-up-bold</v-icon>
       </v-btn>
     </back-to-top>
+    <v-footer>
+    <v-spacer></v-spacer>
+    <div>&copy; POSTCORONA : 극도로 한정된 세계 極限 | 어울림 (한장희 박수환 김지윤 허은지) {{ new Date().getFullYear() }}</div>
+  </v-footer>
   </v-app>
 </template>
 
