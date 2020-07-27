@@ -27,7 +27,7 @@
       >
         <v-container fluid>
           <v-row align="center" justify="center"> </v-row>
-          <v-tabs-items v-model="tab">
+          <v-tabs-items v-model="tab" class="v-flex justify-center mb-6">
             <v-tab-item></v-tab-item>
             <v-tab-item><product-page></product-page></v-tab-item>
             <v-tab-item><process-page></process-page></v-tab-item>
