@@ -17,6 +17,14 @@
     </v-app-bar>
 
     <v-main>
+      <v-lazy
+        v-model="isActive"
+        :options="{
+          threshold: .5
+        }"
+        min-height="200"
+        transition="fade-transition"
+      >
       <v-container class="fill-height" fluid>
         <v-row align="center" justify="center"> </v-row>
         <v-tabs-items v-model="tab">
@@ -26,6 +34,7 @@
           <v-tab-item><market-analysis-page></market-analysis-page></v-tab-item>
         </v-tabs-items>
       </v-container>
+      </v-lazy>
     </v-main>
     <back-to-top bottom="50px" right="50px">
       <v-btn color="primary" fab big dark>
@@ -55,6 +64,7 @@ export default {
   data: () => ({
     tab: null,
     items: ["Home", "제품소개", "제품원리", "시장분석"],
+    isActive: false,
   }),
 };
 </script>
