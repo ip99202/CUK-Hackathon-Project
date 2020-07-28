@@ -17,21 +17,36 @@
     </v-app-bar>
 
     <v-main>
-      <v-container class="fill-height" fluid>
-        <v-row align="center" justify="center"> </v-row>
-        <v-tabs-items v-model="tab">
-          <v-tab-item></v-tab-item>
-          <v-tab-item><product-page></product-page></v-tab-item>
-          <v-tab-item><process-page></process-page></v-tab-item>
-          <v-tab-item><market-analysis-page></market-analysis-page></v-tab-item>
-        </v-tabs-items>
-      </v-container>
+      <v-lazy
+        v-model="isActive"
+        :options="{
+          threshold: 0.5,
+        }"
+        min-height="200"
+        transition="fade-transition"
+      >
+        <v-container fluid>
+          <v-row align="center" justify="center"> </v-row>
+          <v-tabs-items v-model="tab" class="v-flex justify-center mb-6">
+            <v-tab-item></v-tab-item>
+            <v-tab-item><product-page></product-page></v-tab-item>
+            <v-tab-item><process-page></process-page></v-tab-item>
+            <v-tab-item
+              ><market-analysis-page></market-analysis-page
+            ></v-tab-item>
+          </v-tabs-items>
+        </v-container>
+      </v-lazy>
     </v-main>
     <back-to-top bottom="50px" right="50px">
       <v-btn color="primary" fab big dark>
-      <v-icon>mdi-arrow-up-bold</v-icon>
+        <v-icon>mdi-arrow-up-bold</v-icon>
       </v-btn>
     </back-to-top>
+    <v-footer>
+    <v-spacer></v-spacer>
+    <div>&copy; POSTCORONA : 극도로 한정된 세계 極限 | 어울림 (한장희 박수환 김지윤 허은지) {{ new Date().getFullYear() }}</div>
+  </v-footer>
   </v-app>
 </template>
 
@@ -55,6 +70,7 @@ export default {
   data: () => ({
     tab: null,
     items: ["Home", "제품소개", "제품원리", "시장분석"],
+    isActive: false,
   }),
 };
 </script>
