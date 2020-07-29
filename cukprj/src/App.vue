@@ -29,10 +29,20 @@
           <v-row align="center" justify="center"> </v-row>
           <v-tabs-items v-model="tab" class="v-flex justify-center mb-6">
             <v-tab-item
-              ><v-img
-                src="https://user-images.githubusercontent.com/44703262/88700462-b3561a80-d143-11ea-973d-64d2730f07a1.jpg"
-              ></v-img
-            ></v-tab-item>
+              ><v-card>
+                <v-img
+                  class="white--text align-end"
+                  src="https://user-images.githubusercontent.com/44703262/88700462-b3561a80-d143-11ea-973d-64d2730f07a1.jpg"
+                  >
+                  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
+                  <div
+                    class="text-h2 mb-6 text-start"
+                    style="@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap'); font-family: 'Nanum Myeongjo', serif;"
+                    >조용함을 밝히다</div
+                  ></v-img
+                ></v-card
+              >
+            </v-tab-item>
             <v-tab-item><product-page></product-page></v-tab-item>
             <v-tab-item><process-page></process-page></v-tab-item>
             <v-tab-item

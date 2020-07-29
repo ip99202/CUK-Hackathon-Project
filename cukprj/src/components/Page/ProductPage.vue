@@ -52,9 +52,9 @@
             <v-card-subtitle class="pb-0">Number 10</v-card-subtitle>
 
             <v-card-text class="text--primary">
-              <div>Whitehaven Beach</div>
 
-              <div>Whitsunday Island, Whitsunday Islands</div>
+              <div>왼쪽의 통계를 보면 소음 ․ 진동민원의 발생이 늘어나고 있음을 확인할 수 있습니다.</div>
+              <div></div>
             </v-card-text>
 
             <v-card-actions>
