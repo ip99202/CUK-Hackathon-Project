@@ -3,15 +3,16 @@
     <v-app-bar
       :clipped-left="$vuetify.breakpoint.lgAndUp"
       app
-      color="grey darken-1"
-      dark
+      color="white"
+      
     >
       <v-toolbar-title style="width: 300px" class="ml-0 pl-4">
-        <span class="hidden-sm-and-down">어울림</span>
+        <v-img class="center" width="150" height="150"
+        src="https://user-images.githubusercontent.com/44703262/88700192-4cd0fc80-d143-11ea-9e13-033bcaab9b22.png"></v-img>
       </v-toolbar-title>
 
       <v-spacer></v-spacer>
-      <v-tabs dark right v-model="tab">
+      <v-tabs color="black" right v-model="tab">
         <v-tab v-for="item in items" :key="item">{{ item }}</v-tab>
       </v-tabs>
     </v-app-bar>
@@ -28,7 +29,7 @@
         <v-container fluid>
           <v-row align="center" justify="center"> </v-row>
           <v-tabs-items v-model="tab" class="v-flex justify-center mb-6">
-            <v-tab-item></v-tab-item>
+            <v-tab-item><v-img src="https://user-images.githubusercontent.com/44703262/88700462-b3561a80-d143-11ea-973d-64d2730f07a1.jpg"></v-img></v-tab-item>
             <v-tab-item><product-page></product-page></v-tab-item>
             <v-tab-item><process-page></process-page></v-tab-item>
             <v-tab-item
