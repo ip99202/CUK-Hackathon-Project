@@ -1,14 +1,13 @@
 <template>
   <v-app id="inspire">
-    <v-app-bar
-      :clipped-left="$vuetify.breakpoint.lgAndUp"
-      app
-      color="white"
-      
-    >
+    <v-app-bar :clipped-left="$vuetify.breakpoint.lgAndUp" app color="white">
       <v-toolbar-title style="width: 300px" class="ml-0 pl-4">
-        <v-img class="center" width="150" height="150"
-        src="https://user-images.githubusercontent.com/44703262/88700192-4cd0fc80-d143-11ea-9e13-033bcaab9b22.png"></v-img>
+        <v-img
+          class="center"
+          width="150"
+          height="150"
+          src="https://user-images.githubusercontent.com/44703262/88700192-4cd0fc80-d143-11ea-9e13-033bcaab9b22.png"
+        ></v-img>
       </v-toolbar-title>
 
       <v-spacer></v-spacer>
@@ -29,7 +28,12 @@
         <v-container fluid>
           <v-row align="center" justify="center"> </v-row>
           <v-tabs-items v-model="tab" class="v-flex justify-center mb-6">
-            <v-tab-item><v-img src="https://user-images.githubusercontent.com/44703262/88700462-b3561a80-d143-11ea-973d-64d2730f07a1.jpg"></v-img></v-tab-item>
+            <v-tab-item
+              ><div>
+                <v-img
+                  src="https://user-images.githubusercontent.com/44703262/88700462-b3561a80-d143-11ea-973d-64d2730f07a1.jpg"
+                ><v-text dark>조용함을 밝히다</v-text></v-img></div
+            ></v-tab-item>
             <v-tab-item><product-page></product-page></v-tab-item>
             <v-tab-item><process-page></process-page></v-tab-item>
             <v-tab-item
@@ -45,9 +49,12 @@
       </v-btn>
     </back-to-top>
     <v-footer>
-    <v-spacer></v-spacer>
-    <div>&copy; POSTCORONA : 극도로 한정된 세계 極限 | 어울림 (한장희 박수환 김지윤 허은지) {{ new Date().getFullYear() }}</div>
-  </v-footer>
+      <v-spacer></v-spacer>
+      <div>
+        &copy; POSTCORONA : 극도로 한정된 세계 極限 | 어울림 (한장희 박수환
+        김지윤 허은지) {{ new Date().getFullYear() }}
+      </div>
+    </v-footer>
   </v-app>
 </template>
 
