@@ -1,12 +1,21 @@
 <template>
   <v-app id="inspire">
     <v-app-bar :clipped-left="$vuetify.breakpoint.lgAndUp" app color="white">
+<<<<<<< HEAD
       <v-toolbar-title style="width: 300px" class="ml-0 pl-4">
         <v-img
           class="center"
           width="150"
           height="150"
           src="https://user-images.githubusercontent.com/44703262/88700192-4cd0fc80-d143-11ea-9e13-033bcaab9b22.png"
+=======
+      <v-toolbar-title class="ml-0 pl-4">
+        <v-img
+          class="center"
+          height="55px"
+          width="74px"
+          src="https://user-images.githubusercontent.com/54254402/88758978-b0d7dd00-d1a4-11ea-9991-fa651eef6569.png"
+>>>>>>> e8aff235feafb3a1b7a33c0357868575c2cf4f45
         ></v-img>
       </v-toolbar-title>
 
@@ -29,10 +38,9 @@
           <v-row align="center" justify="center"> </v-row>
           <v-tabs-items v-model="tab" class="v-flex justify-center mb-6">
             <v-tab-item
-              ><div>
-                <v-img
-                  src="https://user-images.githubusercontent.com/44703262/88700462-b3561a80-d143-11ea-973d-64d2730f07a1.jpg"
-                ><v-text dark>조용함을 밝히다</v-text></v-img></div
+              ><v-img
+                src="https://user-images.githubusercontent.com/44703262/88700462-b3561a80-d143-11ea-973d-64d2730f07a1.jpg"
+              ></v-img
             ></v-tab-item>
             <v-tab-item><product-page></product-page></v-tab-item>
             <v-tab-item><process-page></process-page></v-tab-item>
