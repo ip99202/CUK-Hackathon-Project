@@ -76,8 +76,7 @@
               width="600"
               src="https://user-images.githubusercontent.com/52627952/88538850-0f894380-d04b-11ea-949a-a1a908828378.jpg"
             ></v-img>
-<<<<<<< HEAD
-            출처 - 환경부 환경통계 포털
+            <<<<<<< HEAD 출처 - 환경부 환경통계 포털
           </v-col>
         </v-row>
         <v-row>
@@ -134,8 +133,7 @@
               width="350"
               src="https://cdn.vuetifyjs.com/images/cards/store.jpg"
             ></v-img>
-=======
->>>>>>> 0412f19767c439f72796a0174d7afd2d50115751
+            ======= >>>>>>> 0412f19767c439f72796a0174d7afd2d50115751
           </v-col>
           <v-col>
             <v-card-title>어울림이란</v-card-title>
