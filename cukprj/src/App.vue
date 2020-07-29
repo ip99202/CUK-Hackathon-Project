@@ -1,17 +1,17 @@
 <template>
   <v-app id="inspire">
-    <v-app-bar
-      :clipped-left="$vuetify.breakpoint.lgAndUp"
-      app
-      color="grey darken-1"
-      dark
-    >
-      <v-toolbar-title style="width: 300px" class="ml-0 pl-4">
-        <span class="hidden-sm-and-down">어울림</span>
+    <v-app-bar :clipped-left="$vuetify.breakpoint.lgAndUp" app color="white">
+      <v-toolbar-title class="ml-0 pl-4">
+        <v-img
+          class="center"
+          height="55px"
+          width="74px"
+          src="https://user-images.githubusercontent.com/54254402/88758978-b0d7dd00-d1a4-11ea-9991-fa651eef6569.png"
+        ></v-img>
       </v-toolbar-title>
 
       <v-spacer></v-spacer>
-      <v-tabs dark right v-model="tab">
+      <v-tabs color="black" right v-model="tab">
         <v-tab v-for="item in items" :key="item">{{ item }}</v-tab>
       </v-tabs>
     </v-app-bar>
@@ -28,7 +28,11 @@
         <v-container fluid>
           <v-row align="center" justify="center"> </v-row>
           <v-tabs-items v-model="tab" class="v-flex justify-center mb-6">
-            <v-tab-item></v-tab-item>
+            <v-tab-item
+              ><v-img
+                src="https://user-images.githubusercontent.com/44703262/88700462-b3561a80-d143-11ea-973d-64d2730f07a1.jpg"
+              ></v-img
+            ></v-tab-item>
             <v-tab-item><product-page></product-page></v-tab-item>
             <v-tab-item><process-page></process-page></v-tab-item>
             <v-tab-item
@@ -44,9 +48,12 @@
       </v-btn>
     </back-to-top>
     <v-footer>
-    <v-spacer></v-spacer>
-    <div>&copy; POSTCORONA : 극도로 한정된 세계 極限 | 어울림 (한장희 박수환 김지윤 허은지) {{ new Date().getFullYear() }}</div>
-  </v-footer>
+      <v-spacer></v-spacer>
+      <div>
+        &copy; POSTCORONA : 극도로 한정된 세계 極限 | 어울림 (한장희 박수환
+        김지윤 허은지) {{ new Date().getFullYear() }}
+      </div>
+    </v-footer>
   </v-app>
 </template>
 
