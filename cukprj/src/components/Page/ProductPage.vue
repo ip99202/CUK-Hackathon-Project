@@ -19,9 +19,30 @@
             <v-card-subtitle class="pb-0"
               >저희 팀명이 가진 의미는 무엇일까요?</v-card-subtitle
             >
-            <v-card-title class="text-h2 mb-6 text-center"
-              >어울림이란?</v-card-title
-            >
+            <v-card class="d-inline-block mx-auto" flat="true">
+              <v-container>
+                <v-row justify="space-between">
+                  <v-col cols="auto">
+                    <v-img
+                      height="180"
+                      width="234.45"
+                      src="https://user-images.githubusercontent.com/54254402/88759512-e92beb00-d1a5-11ea-897f-4618e0223441.png"
+                    ></v-img>
+                  </v-col>
+
+                  <v-col cols="auto" class="text-center pl-0">
+                    <v-row
+                      class="flex-column ma-0 fill-height"
+                      justify="center"
+                    >
+                      <v-col class="px-0"> </v-col>
+                      <v-col class="px-0"> </v-col>
+                      <div class="text-h2 mb-6 text-center">이란?</div>
+                    </v-row>
+                  </v-col>
+                </v-row>
+              </v-container>
+            </v-card>
 
             <v-card-text class="text--primary">
               <div class="text-h6">

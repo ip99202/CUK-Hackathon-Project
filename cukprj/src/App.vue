@@ -5,7 +5,7 @@
         <v-img
           class="center"
           height="55px"
-          width="74px"
+          width="71.6375px"
           src="https://user-images.githubusercontent.com/54254402/88758978-b0d7dd00-d1a4-11ea-9991-fa651eef6569.png"
         ></v-img>
       </v-toolbar-title>
