@@ -136,10 +136,11 @@
             <v-card-title></v-card-title>
 
             <v-card-text class="text--primary text-h6 text-center">
-              <div>소음이 발생하면 파란불이 켜지는</div>
+              <div>소음이 발생하면 송신기에는 빨간등이,</div>
+              <div>무드등에는 파란등이 켜지는</div>
               <div>층간소음 방지 무드등입니다.</div>
               <br />
-              <div>평소에는 하얀불이 켜져 원할 때 불을 켜고 끌 수 있는</div>
+              <div>평소에는 하얀등이 켜져 원할 때 불을 켜고 끌 수 있는</div>
               <div>인테리어 소품으로 활용할 수 있습니다.</div>
               <br />
               <div>층간소음에 고통받고 있는 <b>아랫집</b>에서</div>
