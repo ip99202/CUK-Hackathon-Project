@@ -5,7 +5,7 @@
         <v-row justify="space-between">
           <v-col cols="auto">
             <v-img
-              src="https://user-images.githubusercontent.com/54254402/88892117-42b41880-d27f-11ea-99c8-5a008a62b65a.png"
+              src="https://user-images.githubusercontent.com/54254402/88958603-b1bf5a80-d2db-11ea-8d30-6337802dd4f4.png"
             ></v-img>
           </v-col>
         </v-row>
