@@ -85,7 +85,7 @@
             <iframe
               width="800"
               height="450"
-              src="https://www.youtube.com/embed/KZD7y5Zf2sw"
+              src="https://www.youtube.com/embed/KZD7y5Zf2sw?rel=0"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
