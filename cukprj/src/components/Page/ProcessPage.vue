@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-card max-width="900" class="mx-auto" flat>
-      <v-card-title class="text-h3 mb-6 text-center"
+      <v-card-title class="text-h4 mb-6 text-center"
         >제품 동작 원리</v-card-title
       >
       <v-container>
