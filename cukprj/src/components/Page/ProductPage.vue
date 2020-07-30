@@ -62,13 +62,13 @@
               height="auto"
               width="500px"
               class="white--text align-end"
-              src=""
+              src="https://user-images.githubusercontent.com/44703262/88896169-6b8adc80-d284-11ea-8c0c-afb3e9f87fbd.png"
             ></v-img
           ></v-col>
           <v-col>
             <v-img
               width="500px"
-              src=""
+              src="https://user-images.githubusercontent.com/44703262/88832787-45c1f100-d20c-11ea-8af2-f3514c290048.jpg"
             ></v-img>
           </v-col>
         </v-row>
@@ -85,7 +85,7 @@
             <br /><br /><br />
             <v-img
               width="1000"
-              src=""
+              src="https://user-images.githubusercontent.com/44703262/88896381-b99fe000-d284-11ea-9ee6-979a11352404.png"
             ></v-img>
             <br /><br /><br />
             <div>층간소음은 때로는 큰 분쟁으로 번지기도 합니다.</div>
@@ -248,6 +248,41 @@
       <a href="https://www.flaticon.com/kr/" title="Flaticon"
       style="color: black; text-decoration: none;"
         >www.flaticon.com</a
+      >
+      <br>
+      <a href="https://shindonga.donga.com/3/all/13/2092142/1" title="뉴스기사"
+      style="color: black; text-decoration: none;"
+        >뉴스기사1</a
+      >
+      | 
+      <a href="https://www.msn.com/ko-kr/news/national/%EC%B8%B5%EA%B0%84%EC%86%8C%EC%9D%8C-%EB%B6%88%EB%A7%8C-%EA%B2%BD%EB%B9%84%EC%9B%90-%EC%82%B4%ED%95%B4-40%EB%8C%80-%EC%A7%95%EC%97%AD-18%EB%85%84-%ED%99%95%EC%A0%95/ar-BBZJQuQ" title="뉴스기사"
+      style="color: black; text-decoration: none;"
+        >뉴스기사2</a
+      >
+      | 
+      <a href="https://www.yna.co.kr/view/AKR20200116028600054" title="뉴스기사"
+      style="color: black; text-decoration: none;"
+        >뉴스기사3</a
+      >
+      | 
+      <a href="https://imnews.imbc.com/replay/2019/nwdesk/article/5617781_28802.html" title="뉴스기사"
+      style="color: black; text-decoration: none;"
+        >뉴스기사4</a
+      >
+      | 
+      <a href="https://www.donga.com/news/article/all/20190505/95388569/2 " title="뉴스기사"
+      style="color: black; text-decoration: none;"
+        >뉴스기사5</a
+      >
+      | 
+      <a href="https://www.segye.com/newsView/20190826505672" title="뉴스기사"
+      style="color: black; text-decoration: none;"
+        >뉴스기사6</a
+      >
+      | 
+      <a href="https://www.yna.co.kr/view/AKR20200728128300054" title="뉴스기사"
+      style="color: black; text-decoration: none;"
+        >뉴스기사7</a
       >
     </h6>
   </v-container>
