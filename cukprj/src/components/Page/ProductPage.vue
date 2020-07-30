@@ -23,7 +23,8 @@
       <v-container>
         <v-row>
           <v-card-subtitle class="pb-0 text-h6"
-            ><v-icon>mdi-bookmark</v-icon> 포스트 코로나 시대 무엇이 달라졌을까?</v-card-subtitle
+            ><v-icon>mdi-bookmark</v-icon> 포스트 코로나 시대 무엇이
+            달라졌을까?</v-card-subtitle
           > </v-row
         ><br />
         <v-row justify="center">
@@ -51,8 +52,8 @@
     <br /><br /><br />
     <v-card class="mx-auto" flat>
       <v-card-subtitle class="pb-0 text-h6"
-        ><v-icon>mdi-bookmark</v-icon> 집에서 하는 일이 늘어난 코로나 시대, 층간소음도
-        심해졌습니다.</v-card-subtitle
+        ><v-icon>mdi-bookmark</v-icon> 집에서 하는 일이 늘어난 코로나 시대,
+        층간소음도 심해졌습니다.</v-card-subtitle
       ><br />
       <v-container>
         <v-row>
@@ -61,14 +62,13 @@
               height="auto"
               width="500px"
               class="white--text align-end"
-              src="https://user-images.githubusercontent.com/44703262/88896169-6b8adc80-d284-11ea-8c0c-afb3e9f87fbd.png"
+              src=""
             ></v-img
-            ></v-col
-          >
+          ></v-col>
           <v-col>
             <v-img
               width="500px"
-              src="https://user-images.githubusercontent.com/44703262/88832787-45c1f100-d20c-11ea-8af2-f3514c290048.jpg"
+              src=""
             ></v-img>
           </v-col>
         </v-row>
@@ -77,14 +77,23 @@
           <v-card-text class="text--primary text-h6 text-center">
             <div>
               환경부 산하 국가소음정보시스템(층간소음 이웃사이센터)에 따르면
-            </div><br>
-            <div>올해 5월 층간 소음 분쟁건수가</div><br>
+            </div>
+            <br />
+            <div>올해 5월 층간 소음 분쟁건수가</div>
+            <br />
             <div>지난해 5월보다 <b>2배</b> 늘었다고 합니다.</div>
-            <br><br><br>
-            <v-img width="1000" src="https://user-images.githubusercontent.com/44703262/88896381-b99fe000-d284-11ea-9ee6-979a11352404.png"></v-img>            
-            <br><br><br>
-            <div>층간소음은 때로는 큰 분쟁으로 번지기도 합니다.</div><br>
-            <div>저희는 사람들이 평화롭게 층간소음을 해결할 수 있는 방법을 생각했습니다.</div>
+            <br /><br /><br />
+            <v-img
+              width="1000"
+              src=""
+            ></v-img>
+            <br /><br /><br />
+            <div>층간소음은 때로는 큰 분쟁으로 번지기도 합니다.</div>
+            <br />
+            <div>
+              저희는 사람들이 평화롭게 층간소음을 해결할 수 있는 방법을
+              생각했습니다.
+            </div>
           </v-card-text>
         </v-col>
       </v-container>
@@ -157,7 +166,8 @@
             <br />
             <br /><br />
             <v-card-subtitle class="pb-0 text-h6"
-              ><v-icon>mdi-bookmark</v-icon> 저희 팀명이 가진 의미는 무엇일까요?</v-card-subtitle
+              ><v-icon>mdi-bookmark</v-icon> 저희 팀명이 가진 의미는
+              무엇일까요?</v-card-subtitle
             >
             <v-card class="d-inline-block mx-auto" flat="true">
               <v-container>
@@ -188,7 +198,7 @@
               <div class="text-h6">
                 <span class="text-h4" style="color:#26A69A">어울림</span>은 서로
                 잘 조화된다는 의미입니다.
-              </div>
+              </div><br>
               <div class="text-h6">
                 층간소음으로 갈등을 겪는 사람들이 저희가 만든 무드등을 통해
                 <b>분쟁없이 서로 조화롭게 어울리기를 바라는 마음</b>이 담긴
@@ -199,6 +209,47 @@
         </v-row>
       </v-container>
     </v-card>
+    
+    <h6 class="text-center">
+      아이콘 제작자
+      <a
+        href="https://www.flaticon.com/kr/authors/ultimatearm"
+        title="ultimatearm"
+        style="color: black; text-decoration: none;"
+        >ultimatearm</a
+      >
+      | 아이콘 제작자
+      <a href="https://www.flaticon.com/kr/authors/freepik" title="Freepik"
+        style="color: black; text-decoration: none;"
+        >Freepik</a
+      >
+      | 아이콘 제작자
+      <a
+        href="https://www.flaticon.com/kr/free-icon/delivery_3063822"
+        title="monkik"
+        style="color: black; text-decoration: none;"
+        >monkik</a
+      >
+      | 아이콘 제작자
+      <a
+        href="https://www.flaticon.com/kr/authors/photo3idea-studio"
+        title="photo3idea_studio"
+        style="color: black; text-decoration: none;"
+        >photo3idea_studio</a
+      >
+      | 아이콘 제작자
+      <a
+        href="https://www.flaticon.com/kr/free-icon/smartphone_2898445"
+        title="itim2101"
+        style="color: black; text-decoration: none;"
+        >itim2101</a
+      >
+      from
+      <a href="https://www.flaticon.com/kr/" title="Flaticon"
+      style="color: black; text-decoration: none;"
+        >www.flaticon.com</a
+      >
+    </h6>
   </v-container>
 </template>
 
