@@ -50,7 +50,7 @@
               src="https://user-images.githubusercontent.com/52627952/88758176-c9df8e80-d1a2-11ea-879c-7a918abc6309.png"
             ></v-img>
             nRF24L01 모듈용 ATMega48 개발보드<br />
-            무선통신 모듈과 연결하여 무선통신을 가능하게 해주는 부품
+            무선통신 모듈과 연결하여 무선통신을 편리하게 해주는 부품
           </v-col>
         </v-row>
       </v-container>
@@ -83,9 +83,9 @@
           <v-col cols="auto">
             <v-card-title class="text-h5">시연 영상</v-card-title>
             <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/qtvemMlJ60g"
+              width="800"
+              height="450"
+              src="https://www.youtube.com/embed/KZD7y5Zf2sw"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen

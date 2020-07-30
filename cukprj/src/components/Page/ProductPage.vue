@@ -110,7 +110,7 @@
               height="auto"
               width="600px"
               class="white--text align-end"
-              src="https://user-images.githubusercontent.com/52627952/88927184-0221c280-d2b2-11ea-93e9-5fcc6c436987.jpg"
+              src="https://user-images.githubusercontent.com/52627952/88952761-d4994100-d2d2-11ea-8c69-4a3696a372a0.jpg"
             ></v-img>
           </v-col>
           <v-col>
@@ -136,7 +136,7 @@
             <v-card-title></v-card-title>
 
             <v-card-text class="text--primary text-h6 text-center">
-              <div>소음이 발생하면 송신기에는 빨간등이,</div>
+              <div>진동, 소음이 발생하면 송신기에는 빨간등이,</div>
               <div>무드등에는 파란등이 켜지는</div>
               <div>층간소음 방지 무드등입니다.</div>
               <br />
