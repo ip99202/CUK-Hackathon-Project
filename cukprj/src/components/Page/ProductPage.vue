@@ -133,21 +133,19 @@
       <v-container>
         <v-row justify="space-between">
           <v-col>
-            <v-card-title></v-card-title>
-
             <v-card-text class="text--primary text-h6 text-center">
-              <div>진동, 소음이 발생하면 송신기에는 빨간등이,</div>
-              <div>무드등에는 파란등이 켜지는</div>
-              <div>층간소음 방지 무드등입니다.</div>
-              <br />
-              <div>평소에는 하얀등이 켜져 원할 때 불을 켜고 끌 수 있는</div>
-              <div>인테리어 소품으로 활용할 수 있습니다.</div>
-              <br />
               <div>층간소음에 고통받고 있는 <b>아랫집</b>에서</div>
               <div>소음을 감지하는 송신기를 <b>천장</b>에 설치하고</div>
               <br />
               <div><b>윗집</b>에 <b>무드등</b>을 선물한다면</div>
               <div>소음이 발생할 때 불이 '반짝' 들어옵니다.</div>
+              <br />
+              <div>송신기에는 층간소음이 발생하면 빨간등이,</div>
+              <div>무드등에는 파란등이 켜지게 됩니다.</div>
+              <br />
+              <div>평소 무드등에는 하얀등이 켜져</div>
+              <div>원할 때 불을 켜고 끌 수 있는</div>
+              <div>인테리어 소품으로 활용할 수 있습니다.</div>
             </v-card-text>
           </v-col>
           <v-col cols="auto">
@@ -199,7 +197,8 @@
               <div class="text-h6">
                 <span class="text-h4" style="color:#26A69A">어울림</span>은 서로
                 잘 조화된다는 의미입니다.
-              </div><br>
+              </div>
+              <br />
               <div class="text-h6">
                 층간소음으로 갈등을 겪는 사람들이 저희가 만든 무드등을 통해
                 <b>분쟁없이 서로 조화롭게 어울리기를 바라는 마음</b>이 담긴
@@ -210,7 +209,7 @@
         </v-row>
       </v-container>
     </v-card>
-    <br><br><br>
+    <br /><br /><br />
     <h6 class="text-center">
       아이콘 제작자
       <a
@@ -220,7 +219,9 @@
         >ultimatearm</a
       >
       | 아이콘 제작자
-      <a href="https://www.flaticon.com/kr/authors/freepik" title="Freepik"
+      <a
+        href="https://www.flaticon.com/kr/authors/freepik"
+        title="Freepik"
         style="color: black; text-decoration: none;"
         >Freepik</a
       >
@@ -246,43 +247,59 @@
         >itim2101</a
       >
       from
-      <a href="https://www.flaticon.com/kr/" title="Flaticon"
-      style="color: black; text-decoration: none;"
+      <a
+        href="https://www.flaticon.com/kr/"
+        title="Flaticon"
+        style="color: black; text-decoration: none;"
         >www.flaticon.com</a
       >
-      <br>
-      <a href="https://shindonga.donga.com/3/all/13/2092142/1" title="뉴스기사"
-      style="color: black; text-decoration: none;"
+      <br />
+      <a
+        href="https://shindonga.donga.com/3/all/13/2092142/1"
+        title="뉴스기사"
+        style="color: black; text-decoration: none;"
         >뉴스기사1</a
       >
-      | 
-      <a href="https://www.msn.com/ko-kr/news/national/%EC%B8%B5%EA%B0%84%EC%86%8C%EC%9D%8C-%EB%B6%88%EB%A7%8C-%EA%B2%BD%EB%B9%84%EC%9B%90-%EC%82%B4%ED%95%B4-40%EB%8C%80-%EC%A7%95%EC%97%AD-18%EB%85%84-%ED%99%95%EC%A0%95/ar-BBZJQuQ" title="뉴스기사"
-      style="color: black; text-decoration: none;"
+      |
+      <a
+        href="https://www.msn.com/ko-kr/news/national/%EC%B8%B5%EA%B0%84%EC%86%8C%EC%9D%8C-%EB%B6%88%EB%A7%8C-%EA%B2%BD%EB%B9%84%EC%9B%90-%EC%82%B4%ED%95%B4-40%EB%8C%80-%EC%A7%95%EC%97%AD-18%EB%85%84-%ED%99%95%EC%A0%95/ar-BBZJQuQ"
+        title="뉴스기사"
+        style="color: black; text-decoration: none;"
         >뉴스기사2</a
       >
-      | 
-      <a href="https://www.yna.co.kr/view/AKR20200116028600054" title="뉴스기사"
-      style="color: black; text-decoration: none;"
+      |
+      <a
+        href="https://www.yna.co.kr/view/AKR20200116028600054"
+        title="뉴스기사"
+        style="color: black; text-decoration: none;"
         >뉴스기사3</a
       >
-      | 
-      <a href="https://imnews.imbc.com/replay/2019/nwdesk/article/5617781_28802.html" title="뉴스기사"
-      style="color: black; text-decoration: none;"
+      |
+      <a
+        href="https://imnews.imbc.com/replay/2019/nwdesk/article/5617781_28802.html"
+        title="뉴스기사"
+        style="color: black; text-decoration: none;"
         >뉴스기사4</a
       >
-      | 
-      <a href="https://www.donga.com/news/article/all/20190505/95388569/2 " title="뉴스기사"
-      style="color: black; text-decoration: none;"
+      |
+      <a
+        href="https://www.donga.com/news/article/all/20190505/95388569/2 "
+        title="뉴스기사"
+        style="color: black; text-decoration: none;"
         >뉴스기사5</a
       >
-      | 
-      <a href="https://www.segye.com/newsView/20190826505672" title="뉴스기사"
-      style="color: black; text-decoration: none;"
+      |
+      <a
+        href="https://www.segye.com/newsView/20190826505672"
+        title="뉴스기사"
+        style="color: black; text-decoration: none;"
         >뉴스기사6</a
       >
-      | 
-      <a href="https://www.yna.co.kr/view/AKR20200728128300054" title="뉴스기사"
-      style="color: black; text-decoration: none;"
+      |
+      <a
+        href="https://www.yna.co.kr/view/AKR20200728128300054"
+        title="뉴스기사"
+        style="color: black; text-decoration: none;"
         >뉴스기사7</a
       >
     </h6>
