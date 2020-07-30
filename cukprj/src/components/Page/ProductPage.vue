@@ -23,7 +23,7 @@
       <v-container>
         <v-row>
           <v-card-subtitle class="pb-0 text-h6"
-            >|포스트 코로나 시대 무엇이 달라졌을까?</v-card-subtitle
+            ><v-icon>mdi-bookmark</v-icon> 포스트 코로나 시대 무엇이 달라졌을까?</v-card-subtitle
           > </v-row
         ><br />
         <v-row justify="center">
@@ -51,73 +51,69 @@
     <br /><br /><br />
     <v-card class="mx-auto" flat>
       <v-card-subtitle class="pb-0 text-h6"
-        >집에서 하는 일이 늘어난 코로나 시대, 층간소음도
+        ><v-icon>mdi-bookmark</v-icon> 집에서 하는 일이 늘어난 코로나 시대, 층간소음도
         심해졌습니다.</v-card-subtitle
       ><br />
       <v-container>
         <v-row>
-          <v-col cols="auto">
-            <v-img src="https://user-images.githubusercontent.com/44703262/88832787-45c1f100-d20c-11ea-8af2-f3514c290048.jpg"></v-img>
-          </v-col>
-
-          <v-col>
-            
-          </v-col>
-          </v-row>
-          <v-row>
-            <v-card-text class="text--primary">
-              자료 출처 - 환경부 국가소음정보시스템
-              <div>
-                환경부 산하 국가소음정보시스템(층간소음 이웃사이센터)에 따르면 올해 5월 층간 소음 분쟁건수가 지난해 5월보다 2배 늘었다고 합니다.
-              </div>
-              <div></div>
-             
-            </v-card-text>
-        </v-row>
-      </v-container>
-    </v-card>
-    <v-card class="mx-auto" flat>
-      <v-container>
-        <v-row justify="space-between">
-          <v-col cols="auto">
-            <v-img
+          <v-col
+            ><v-img
               height="auto"
-              width="600"
+              width="500px"
               class="white--text align-end"
-              src="https://user-images.githubusercontent.com/52627952/88538850-0f894380-d04b-11ea-949a-a1a908828378.jpg"
+              src="https://user-images.githubusercontent.com/44703262/88896169-6b8adc80-d284-11ea-8c0c-afb3e9f87fbd.png"
+            ></v-img
+            ></v-col
+          >
+          <v-col>
+            <v-img
+              width="500px"
+              src="https://user-images.githubusercontent.com/44703262/88832787-45c1f100-d20c-11ea-8af2-f3514c290048.jpg"
             ></v-img>
           </v-col>
-          <v-col>
-            <v-card-title>어울림이란</v-card-title>
-
-            <v-card-subtitle class="pb-0"></v-card-subtitle>
-
-            <v-card-text class="text--primary">
-              <div>Whitehaven Beach</div>
-
-              <div>Whitsunday Island, Whitsunday Islands</div>
-            </v-card-text>
-          </v-col>
         </v-row>
+
+        <v-col>
+          <v-card-text class="text--primary text-h6 text-center">
+            <div>
+              환경부 산하 국가소음정보시스템(층간소음 이웃사이센터)에 따르면
+            </div><br>
+            <div>올해 5월 층간 소음 분쟁건수가</div><br>
+            <div>지난해 5월보다 <b>2배</b> 늘었다고 합니다.</div>
+            <br><br><br>
+            <v-img width="1000" src="https://user-images.githubusercontent.com/44703262/88896381-b99fe000-d284-11ea-9ee6-979a11352404.png"></v-img>            
+            <br><br><br>
+            <div>층간소음은 때로는 큰 분쟁으로 번지기도 합니다.</div><br>
+            <div>저희는 사람들이 평화롭게 층간소음을 해결할 수 있는 방법을 생각했습니다.</div>
+          </v-card-text>
+        </v-col>
       </v-container>
-    </v-card><br><br><br>
+    </v-card>
+    <br /><br /><br />
     <v-card class="mx-auto" flat>
-      <v-card-subtitle class="pb-0 text-h6">저희 제품은 이렇습니다.</v-card-subtitle>
+      <v-card-subtitle class="pb-0 text-h6"
+        ><v-icon>mdi-bookmark</v-icon> 저희 제품은 이렇습니다.</v-card-subtitle
+      >
       <v-container>
         <v-row justify="space-between">
           <v-col cols="auto">
             <v-img
               height="auto"
-              width="600"
+              width="600px"
               class="white--text align-end"
               src="https://user-images.githubusercontent.com/44703262/88700462-b3561a80-d143-11ea-973d-64d2730f07a1.jpg"
             ></v-img>
           </v-col>
           <v-col>
             <v-row>
-              <v-img class="black--text align-center" width="200" src="https://user-images.githubusercontent.com/44703262/88837918-c59f8980-d213-11ea-8722-466dc4eb0216.png">
-              <div class="text-center text-h5">조용함을</div><br>
-              <div class="text-center text-h5">밝히다.</div>
+              <v-img
+                class="black--text align-center"
+                width="200px"
+                src="https://user-images.githubusercontent.com/44703262/88837918-c59f8980-d213-11ea-8722-466dc4eb0216.png"
+              >
+                <div class="text-center text-h5">조용함을</div>
+                <br />
+                <div class="text-center text-h5">밝히다.</div>
               </v-img>
             </v-row>
           </v-col>
@@ -128,18 +124,20 @@
       <v-container>
         <v-row justify="space-between">
           <v-col>
-            
-           <v-card-title></v-card-title>
+            <v-card-title></v-card-title>
 
             <v-card-text class="text--primary text-h6 text-center">
               <div>소음이 발생하면 파란불이 켜지는</div>
-              <div>층간소음 방지 무드등입니다.</div><br>
+              <div>층간소음 방지 무드등입니다.</div>
+              <br />
               <div>평소에는 하얀불이 켜져 원할 때 불을 켜고 끌 수 있는</div>
-              <div>인테리어 소품으로 활용할 수 있습니다.</div><br>
+              <div>인테리어 소품으로 활용할 수 있습니다.</div>
+              <br />
               <div>층간소음에 고통받고 있는 <b>아랫집</b>에서</div>
-              <div>소음을 감지하는 송신기를 <b>천장</b>에 설치하고</div><br>
+              <div>소음을 감지하는 송신기를 <b>천장</b>에 설치하고</div>
+              <br />
               <div><b>윗집</b>에 <b>무드등</b>을 선물한다면</div>
-              <div>소음이 발생할때마다 무드등에 불이 '반짝' 들어옵니다.</div>
+              <div>소음이 발생할때 불이 '반짝' 들어옵니다.</div>
             </v-card-text>
           </v-col>
           <v-col cols="auto">
@@ -157,9 +155,9 @@
         <v-row>
           <v-col>
             <br />
-            <br /><br>
+            <br /><br />
             <v-card-subtitle class="pb-0 text-h6"
-              >저희 팀명이 가진 의미는 무엇일까요?</v-card-subtitle
+              ><v-icon>mdi-bookmark</v-icon> 저희 팀명이 가진 의미는 무엇일까요?</v-card-subtitle
             >
             <v-card class="d-inline-block mx-auto" flat="true">
               <v-container>
@@ -212,9 +210,8 @@ export default {
 };
 </script>
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Myeongjo&display=swap");
 .slogan {
-  font-family: "Nanum Myeongjo", serif;
+  font-style: serif;
   font-size: 50px;
   margin-left: 50px;
   margin-top: 20px;
