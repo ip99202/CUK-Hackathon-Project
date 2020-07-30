@@ -31,15 +31,12 @@
             <v-tab-item
               ><v-card>
                 <v-img
-                  class="white--text align-end"
+
+                  class="white--text align-start"
                   src="https://user-images.githubusercontent.com/44703262/88700462-b3561a80-d143-11ea-973d-64d2730f07a1.jpg"
-                  >
-                  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
-                  <div
-                    class="text-h2 mb-6 text-start"
-                    style="@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap'); font-family: 'Nanum Myeongjo', serif;"
-                    >조용함을 밝히다</div
-                  ></v-img
+                >
+                  <div class="slogan">조용함을</div>
+                  <div class="slogan">밝히다.</div></v-img
                 ></v-card
               >
             </v-tab-item>
@@ -91,3 +88,12 @@ export default {
   }),
 };
 </script>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap");
+.slogan {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 80px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+</style>

@@ -5,18 +5,160 @@
         <v-row justify="space-between">
           <v-col cols="auto">
             <v-img
-              height="350"
-              width="350"
-              src="https://cdn.vuetifyjs.com/images/cards/store.jpg"
+              height="300"
+              class="white--text align-start"
+              src="https://user-images.githubusercontent.com/44703262/88700462-b3561a80-d143-11ea-973d-64d2730f07a1.jpg"
+            >
+              <div class="slogan">조용함을</div>
+              <div class="slogan">밝히다.</div></v-img
+            >
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-card>
+    <br />
+    <hr />
+    <br />
+    <v-card class="mx-auto" flat>
+      <v-container>
+        <v-row>
+          <v-card-subtitle class="pb-0 text-h6"
+            >|포스트 코로나 시대 무엇이 달라졌을까?</v-card-subtitle
+          > </v-row
+        ><br />
+        <v-row justify="center">
+          <v-col cols="auto">
+            <img
+              width="800px"
+              src="https://user-images.githubusercontent.com/44703262/88811512-9ed05b80-d1f1-11ea-9913-c29b2f63febc.png"
+            />
+          </v-col>
+        </v-row>
+        <v-row>
+          <v-card-text class="text--primary text-h6 text-center">
+            <div>화상회의, 온라인강의, 배달, 인터넷 쇼핑, 홈트레이닝 등</div>
+            <br />
+            <div>포스트 코로나 시대에서 늘어나게 된 활동들입니다.</div>
+            <br />
+            <div>
+              이들의 공통점은 모두 <b>집</b>에서 하는 활동이라는 점입니다.
+            </div>
+            <div></div>
+          </v-card-text>
+        </v-row>
+      </v-container>
+    </v-card>
+    <br /><br /><br />
+    <v-card class="mx-auto" flat>
+      <v-card-subtitle class="pb-0 text-h6"
+        >집에서 하는 일이 늘어난 코로나 시대, 층간소음도
+        심해졌습니다.</v-card-subtitle
+      ><br />
+      <v-container>
+        <v-row>
+          <v-col cols="auto">
+            <v-img src="https://user-images.githubusercontent.com/44703262/88832787-45c1f100-d20c-11ea-8af2-f3514c290048.jpg"></v-img>
+          </v-col>
+
+          <v-col>
+            
+          </v-col>
+          </v-row>
+          <v-row>
+            <v-card-text class="text--primary">
+              자료 출처 - 환경부 국가소음정보시스템
+              <div>
+                환경부 산하 국가소음정보시스템(층간소음 이웃사이센터)에 따르면 올해 5월 층간 소음 분쟁건수가 지난해 5월보다 2배 늘었다고 합니다.
+              </div>
+              <div></div>
+             
+            </v-card-text>
+        </v-row>
+      </v-container>
+    </v-card>
+    <v-card class="mx-auto" flat>
+      <v-container>
+        <v-row justify="space-between">
+          <v-col cols="auto">
+            <v-img
+              height="auto"
+              width="600"
+              class="white--text align-end"
+              src="https://user-images.githubusercontent.com/52627952/88538850-0f894380-d04b-11ea-949a-a1a908828378.jpg"
+            ></v-img>
+          </v-col>
+          <v-col>
+            <v-card-title>어울림이란</v-card-title>
+
+            <v-card-subtitle class="pb-0"></v-card-subtitle>
+
+            <v-card-text class="text--primary">
+              <div>Whitehaven Beach</div>
+
+              <div>Whitsunday Island, Whitsunday Islands</div>
+            </v-card-text>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-card><br><br><br>
+    <v-card class="mx-auto" flat>
+      <v-card-subtitle class="pb-0 text-h6">저희 제품은 이렇습니다.</v-card-subtitle>
+      <v-container>
+        <v-row justify="space-between">
+          <v-col cols="auto">
+            <v-img
+              height="auto"
+              width="600"
+              class="white--text align-end"
+              src="https://user-images.githubusercontent.com/44703262/88700462-b3561a80-d143-11ea-973d-64d2730f07a1.jpg"
+            ></v-img>
+          </v-col>
+          <v-col>
+            <v-row>
+              <v-img class="black--text align-center" width="200" src="https://user-images.githubusercontent.com/44703262/88837918-c59f8980-d213-11ea-8722-466dc4eb0216.png">
+              <div class="text-center text-h5">조용함을</div><br>
+              <div class="text-center text-h5">밝히다.</div>
+              </v-img>
+            </v-row>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-card>
+    <v-card class="mx-auto" flat>
+      <v-container>
+        <v-row justify="space-between">
+          <v-col>
+            
+           <v-card-title></v-card-title>
+
+            <v-card-text class="text--primary text-h6 text-center">
+              <div>소음이 발생하면 파란불이 켜지는</div>
+              <div>층간소음 방지 무드등입니다.</div><br>
+              <div>평소에는 하얀불이 켜져 원할 때 불을 켜고 끌 수 있는</div>
+              <div>인테리어 소품으로 활용할 수 있습니다.</div><br>
+              <div>층간소음에 고통받고 있는 <b>아랫집</b>에서</div>
+              <div>소음을 감지하는 송신기를 <b>천장</b>에 설치하고</div><br>
+              <div><b>윗집</b>에 <b>무드등</b>을 선물한다면</div>
+              <div>소음이 발생할때마다 무드등에 불이 '반짝' 들어옵니다.</div>
+            </v-card-text>
+          </v-col>
+          <v-col cols="auto">
+            <v-img
+              width="600"
+              class="white--text align-end"
+              src="https://user-images.githubusercontent.com/44703262/88700462-b3561a80-d143-11ea-973d-64d2730f07a1.jpg"
             ></v-img>
           </v-col>
         </v-row>
-
+      </v-container>
+    </v-card>
+    <v-card class="mx-auto" flat>
+      <v-container>
         <v-row>
           <v-col>
-            <hr />
             <br />
-            <v-card-subtitle class="pb-0"
+            <br /><br>
+            <v-card-subtitle class="pb-0 text-h6"
               >저희 팀명이 가진 의미는 무엇일까요?</v-card-subtitle
             >
             <v-card class="d-inline-block mx-auto" flat="true">
@@ -57,100 +199,6 @@
             </v-card-text>
           </v-col>
         </v-row>
-
-        <v-row justify="space-between">
-          <v-col cols="auto">
-            <v-img
-              height="auto"
-              width="600"
-              src="https://user-images.githubusercontent.com/52627952/88538850-0f894380-d04b-11ea-949a-a1a908828378.jpg"
-            ></v-img>
-            출처 - 환경부 환경통계 포털
-          </v-col>
-          <v-col>
-            <v-card-title>어울림이란</v-card-title>
-
-            <v-card-subtitle class="pb-0">Number 10</v-card-subtitle>
-
-            <v-card-text class="text--primary">
-
-              <div>왼쪽의 통계를 보면 소음 ․ 진동민원의 발생이 늘어나고 있음을 확인할 수 있습니다.</div>
-              <div></div>
-            </v-card-text>
-
-            <v-card-actions>
-              <v-btn color="orange" text>
-                Share
-              </v-btn>
-
-              <v-btn color="orange" text>
-                Explore
-              </v-btn>
-            </v-card-actions>
-          </v-col>
-        </v-row>
-
-        <v-row justify="space-between">
-          <v-col cols="auto">
-            <v-img
-              height="auto"
-              width="600"
-              src="https://user-images.githubusercontent.com/52627952/88538850-0f894380-d04b-11ea-949a-a1a908828378.jpg"
-            ></v-img>
-          </v-col>
-          <v-col>
-            <v-card-title>어울림이란</v-card-title>
-
-            <v-card-subtitle class="pb-0">Number 10</v-card-subtitle>
-
-            <v-card-text class="text--primary">
-              <div>Whitehaven Beach</div>
-
-              <div>Whitsunday Island, Whitsunday Islands</div>
-            </v-card-text>
-
-            <v-card-actions>
-              <v-btn color="orange" text>
-                Share
-              </v-btn>
-
-              <v-btn color="orange" text>
-                Explore
-              </v-btn>
-            </v-card-actions>
-          </v-col>
-        </v-row>
-
-        <v-row justify="space-between">
-          <v-col>
-            <v-card-title>어울림이란</v-card-title>
-
-            <v-card-subtitle class="pb-0">Number 10</v-card-subtitle>
-
-            <v-card-text class="text--primary">
-              <div>Whitehaven Beach</div>
-
-              <div>Whitsunday Island, Whitsunday Islands</div>
-            </v-card-text>
-
-            <v-card-actions>
-              <v-btn color="orange" text>
-                Share
-              </v-btn>
-
-              <v-btn color="orange" text>
-                Explore
-              </v-btn>
-            </v-card-actions>
-          </v-col>
-          <v-col cols="auto">
-            <v-img
-              height="350"
-              width="350"
-              src="https://cdn.vuetifyjs.com/images/cards/store.jpg"
-            ></v-img>
-          </v-col>
-        </v-row>
       </v-container>
     </v-card>
   </v-container>
@@ -163,3 +211,12 @@ export default {
   data: () => ({}),
 };
 </script>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Myeongjo&display=swap");
+.slogan {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+</style>
