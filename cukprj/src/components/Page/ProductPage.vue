@@ -5,9 +5,9 @@
         <v-row justify="space-between">
           <v-col cols="auto">
             <v-img
-              height="300"
+              height="400"
               class="white--text align-start"
-              src="https://user-images.githubusercontent.com/44703262/88700462-b3561a80-d143-11ea-973d-64d2730f07a1.jpg"
+              src="https://user-images.githubusercontent.com/52627952/88927174-ff26d200-d2b1-11ea-8a4a-db5675be2abe.jpg"
             >
               <div class="slogan">조용함을</div>
               <div class="slogan">밝히다.</div></v-img
@@ -110,7 +110,7 @@
               height="auto"
               width="600px"
               class="white--text align-end"
-              src="https://user-images.githubusercontent.com/44703262/88700462-b3561a80-d143-11ea-973d-64d2730f07a1.jpg"
+              src="https://user-images.githubusercontent.com/52627952/88927184-0221c280-d2b2-11ea-93e9-5fcc6c436987.jpg"
             ></v-img>
           </v-col>
           <v-col>
@@ -153,7 +153,7 @@
             <v-img
               width="600"
               class="white--text align-end"
-              src="https://user-images.githubusercontent.com/44703262/88700462-b3561a80-d143-11ea-973d-64d2730f07a1.jpg"
+              src="https://user-images.githubusercontent.com/52627952/88927187-0352ef80-d2b2-11ea-80e7-2bee9d9bbe92.jpg"
             ></v-img>
           </v-col>
         </v-row>
@@ -209,7 +209,7 @@
         </v-row>
       </v-container>
     </v-card>
-    
+    <br><br><br>
     <h6 class="text-center">
       아이콘 제작자
       <a

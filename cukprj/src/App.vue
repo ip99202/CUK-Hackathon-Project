@@ -33,7 +33,7 @@
                 <v-img
 
                   class="white--text align-start"
-                  src="https://user-images.githubusercontent.com/44703262/88700462-b3561a80-d143-11ea-973d-64d2730f07a1.jpg"
+                  src="https://user-images.githubusercontent.com/52627952/88927184-0221c280-d2b2-11ea-93e9-5fcc6c436987.jpg"
                 >
                   <div class="slogan">조용함을</div>
                   <div class="slogan">밝히다.</div></v-img

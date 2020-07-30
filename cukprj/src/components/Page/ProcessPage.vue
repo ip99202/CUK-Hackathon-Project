@@ -77,6 +77,24 @@
       </v-container>
     </v-card>
 
+    <v-card max-width="900" class="mx-auto" flat>
+      <v-container>
+        <v-row justify="space-between">
+          <v-col cols="auto">
+            <v-card-title class="text-h5">시연 영상</v-card-title>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/qtvemMlJ60g"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-card>
+
     <br /><br />
     <h6 class="text-center">
       아이콘 제작자
