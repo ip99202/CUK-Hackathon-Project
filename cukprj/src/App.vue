@@ -31,7 +31,6 @@
             <v-tab-item
               ><v-card>
                 <v-img
-
                   class="white--text align-start"
                   src="https://user-images.githubusercontent.com/52627952/88927184-0221c280-d2b2-11ea-93e9-5fcc6c436987.jpg"
                 >
@@ -58,7 +57,7 @@
       <v-spacer></v-spacer>
       <div>
         &copy; POSTCORONA : 극도로 한정된 세계 極限 | 어울림 (한장희 박수환
-        김지윤 허은지) {{ new Date().getFullYear() }}
+        김지윤 허은지)
       </div>
     </v-footer>
   </v-app>
